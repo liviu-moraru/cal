@@ -31,6 +31,7 @@ func TestHolidays(t *testing.T) {
 		{AnulNou, 2022, d(2022, 1, 1), d(2022, 1, 1)},
 		{AnulNou, 2023, d(2023, 1, 1), d(2023, 1, 1)},
 		{AnulNou, 2024, d(2024, 1, 1), d(2024, 1, 1)},
+		{AnulNou, 2025, d(2025, 1, 1), d(2025, 1, 1)},
 
 		{AnulNou2, 2015, d(2015, 1, 2), d(2015, 1, 2)},
 		{AnulNou2, 2016, d(2016, 1, 2), d(2016, 1, 2)},
@@ -43,10 +44,13 @@ func TestHolidays(t *testing.T) {
 		{AnulNou2, 2022, d(2022, 1, 2), d(2022, 1, 2)},
 		{AnulNou2, 2023, d(2023, 1, 2), d(2023, 1, 2)},
 		{AnulNou2, 2024, d(2024, 1, 2), d(2024, 1, 2)},
+		{AnulNou2, 2025, d(2025, 1, 2), d(2025, 1, 2)},
 
 		{Boboteaza, 2024, d(2024, 1, 6), d(2024, 1, 6)},
+		{Boboteaza, 2025, d(2025, 1, 6), d(2025, 1, 6)},
 
 		{SfantulIon, 2024, d(2024, 1, 7), d(2024, 1, 7)},
+		{SfantulIon, 2025, d(2025, 1, 7), d(2025, 1, 7)},
 
 		{ZiuaUniriiPrincipatelorRomane, 2015, d(2015, 1, 24), d(2015, 1, 24)},
 		{ZiuaUniriiPrincipatelorRomane, 2016, d(2016, 1, 24), d(2016, 1, 24)},
@@ -59,6 +63,7 @@ func TestHolidays(t *testing.T) {
 		{ZiuaUniriiPrincipatelorRomane, 2022, d(2022, 1, 24), d(2022, 1, 24)},
 		{ZiuaUniriiPrincipatelorRomane, 2023, d(2023, 1, 24), d(2023, 1, 24)},
 		{ZiuaUniriiPrincipatelorRomane, 2024, d(2024, 1, 24), d(2024, 1, 24)},
+		{ZiuaUniriiPrincipatelorRomane, 2025, d(2025, 1, 24), d(2025, 1, 24)},
 
 		{VinereaMare, 2015, time.Time{}, time.Time{}},
 		{VinereaMare, 2016, time.Time{}, time.Time{}},
@@ -70,6 +75,7 @@ func TestHolidays(t *testing.T) {
 		{VinereaMare, 2022, d(2022, 4, 22), d(2022, 4, 22)},
 		{VinereaMare, 2023, d(2023, 4, 14), d(2023, 4, 14)},
 		{VinereaMare, 2024, d(2024, 5, 3), d(2024, 5, 3)},
+		{VinereaMare, 2025, d(2025, 4, 18), d(2025, 4, 18)},
 
 		{Pastele, 2015, d(2015, 4, 12), d(2015, 4, 12)},
 		{Pastele, 2016, d(2016, 5, 1), d(2016, 5, 1)},
@@ -81,6 +87,7 @@ func TestHolidays(t *testing.T) {
 		{Pastele, 2022, d(2022, 4, 24), d(2022, 4, 24)},
 		{Pastele, 2023, d(2023, 4, 16), d(2023, 4, 16)},
 		{Pastele, 2024, d(2024, 5, 5), d(2024, 5, 5)},
+		{Pastele, 2025, d(2025, 4, 20), d(2025, 4, 20)},
 
 		{ADouaZiDePaste, 2015, d(2015, 4, 13), d(2015, 4, 13)},
 		{ADouaZiDePaste, 2016, d(2016, 5, 2), d(2016, 5, 2)},
@@ -92,6 +99,7 @@ func TestHolidays(t *testing.T) {
 		{ADouaZiDePaste, 2022, d(2022, 4, 25), d(2022, 4, 25)},
 		{ADouaZiDePaste, 2023, d(2023, 4, 17), d(2023, 4, 17)},
 		{ADouaZiDePaste, 2024, d(2024, 5, 6), d(2024, 5, 6)},
+		{ADouaZiDePaste, 2025, d(2025, 4, 21), d(2025, 4, 21)},
 
 		{ZiuaMuncii, 2015, d(2015, 5, 1), d(2015, 5, 1)},
 		{ZiuaMuncii, 2016, d(2016, 5, 1), d(2016, 5, 1)},
@@ -103,6 +111,7 @@ func TestHolidays(t *testing.T) {
 		{ZiuaMuncii, 2022, d(2022, 5, 1), d(2022, 5, 1)},
 		{ZiuaMuncii, 2023, d(2023, 5, 1), d(2023, 5, 1)},
 		{ZiuaMuncii, 2024, d(2024, 5, 1), d(2024, 5, 1)},
+		{ZiuaMuncii, 2025, d(2025, 5, 1), d(2025, 5, 1)},
 
 		{ZiuaCopilului, 2015, time.Time{}, time.Time{}},
 		{ZiuaCopilului, 2016, time.Time{}, time.Time{}},
@@ -114,6 +123,7 @@ func TestHolidays(t *testing.T) {
 		{ZiuaCopilului, 2022, d(2022, 6, 1), d(2022, 6, 1)},
 		{ZiuaCopilului, 2023, d(2023, 6, 1), d(2023, 6, 1)},
 		{ZiuaCopilului, 2024, d(2024, 6, 1), d(2024, 6, 1)},
+		{ZiuaCopilului, 2025, d(2025, 6, 1), d(2025, 6, 1)},
 
 		{Rusalii, 2015, d(2015, 5, 31), d(2015, 5, 31)},
 		{Rusalii, 2016, d(2016, 6, 19), d(2016, 6, 19)},
@@ -125,6 +135,7 @@ func TestHolidays(t *testing.T) {
 		{Rusalii, 2022, d(2022, 6, 12), d(2022, 6, 12)},
 		{Rusalii, 2023, d(2023, 6, 4), d(2023, 6, 4)},
 		{Rusalii, 2024, d(2024, 6, 23), d(2024, 6, 23)},
+		{Rusalii, 2025, d(2025, 6, 8), d(2025, 6, 8)},
 
 		{LuniDupaRusalii, 2015, d(2015, 6, 1), d(2015, 6, 1)},
 		{LuniDupaRusalii, 2016, d(2016, 6, 20), d(2016, 6, 20)},
@@ -136,6 +147,7 @@ func TestHolidays(t *testing.T) {
 		{LuniDupaRusalii, 2022, d(2022, 6, 13), d(2022, 6, 13)},
 		{LuniDupaRusalii, 2023, d(2023, 6, 5), d(2023, 6, 5)},
 		{LuniDupaRusalii, 2024, d(2024, 6, 24), d(2024, 6, 24)},
+		{LuniDupaRusalii, 2025, d(2025, 6, 9), d(2025, 6, 9)},
 
 		{AdormireaMaiciiDomnului, 2015, d(2015, 8, 15), d(2015, 8, 15)},
 		{AdormireaMaiciiDomnului, 2016, d(2016, 8, 15), d(2016, 8, 15)},
@@ -147,6 +159,7 @@ func TestHolidays(t *testing.T) {
 		{AdormireaMaiciiDomnului, 2022, d(2022, 8, 15), d(2022, 8, 15)},
 		{AdormireaMaiciiDomnului, 2023, d(2023, 8, 15), d(2023, 8, 15)},
 		{AdormireaMaiciiDomnului, 2024, d(2024, 8, 15), d(2024, 8, 15)},
+		{AdormireaMaiciiDomnului, 2025, d(2025, 8, 15), d(2025, 8, 15)},
 
 		{SfantulAndrei, 2015, d(2015, 11, 30), d(2015, 11, 30)},
 		{SfantulAndrei, 2016, d(2016, 11, 30), d(2016, 11, 30)},
@@ -158,6 +171,7 @@ func TestHolidays(t *testing.T) {
 		{SfantulAndrei, 2022, d(2022, 11, 30), d(2022, 11, 30)},
 		{SfantulAndrei, 2023, d(2023, 11, 30), d(2023, 11, 30)},
 		{SfantulAndrei, 2024, d(2024, 11, 30), d(2024, 11, 30)},
+		{SfantulAndrei, 2025, d(2025, 11, 30), d(2025, 11, 30)},
 
 		{ZiuaNationala, 2015, d(2015, 12, 1), d(2015, 12, 1)},
 		{ZiuaNationala, 2016, d(2016, 12, 1), d(2016, 12, 1)},
@@ -169,6 +183,7 @@ func TestHolidays(t *testing.T) {
 		{ZiuaNationala, 2022, d(2022, 12, 1), d(2022, 12, 1)},
 		{ZiuaNationala, 2023, d(2023, 12, 1), d(2023, 12, 1)},
 		{ZiuaNationala, 2024, d(2024, 12, 1), d(2024, 12, 1)},
+		{ZiuaNationala, 2025, d(2025, 12, 1), d(2025, 12, 1)},
 
 		{Craciunul, 2015, d(2015, 12, 25), d(2015, 12, 25)},
 		{Craciunul, 2016, d(2016, 12, 25), d(2016, 12, 25)},
@@ -180,6 +195,7 @@ func TestHolidays(t *testing.T) {
 		{Craciunul, 2022, d(2022, 12, 25), d(2022, 12, 25)},
 		{Craciunul, 2023, d(2023, 12, 25), d(2023, 12, 25)},
 		{Craciunul, 2024, d(2024, 12, 25), d(2024, 12, 25)},
+		{Craciunul, 2025, d(2025, 12, 25), d(2025, 12, 25)},
 
 		{Craciunul2, 2015, d(2015, 12, 26), d(2015, 12, 26)},
 		{Craciunul2, 2016, d(2016, 12, 26), d(2016, 12, 26)},
@@ -191,6 +207,7 @@ func TestHolidays(t *testing.T) {
 		{Craciunul2, 2022, d(2022, 12, 26), d(2022, 12, 26)},
 		{Craciunul2, 2023, d(2023, 12, 26), d(2023, 12, 26)},
 		{Craciunul2, 2024, d(2024, 12, 26), d(2024, 12, 26)},
+		{Craciunul2, 2025, d(2025, 12, 26), d(2025, 12, 26)},
 	}
 
 	for _, test := range tests {
